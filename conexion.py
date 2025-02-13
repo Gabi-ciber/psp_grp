@@ -6,7 +6,7 @@ dbname="pruebaPPS",
 user="tu_usuario",
 password="tu_contraseña gabi",
 host="localhost", # Cambia si el servidor no está en local
-port="5432" # Puerto por defecto de PostgreSQL
+port="5435" # Puerto por defecto de PostgreSQL cambio puerto
 )
 print("Conexión exitosa a la base de datos")
 return conexion
