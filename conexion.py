@@ -1,4 +1,4 @@
-import psycopg2 
+import psycopg2 #añado comentario extra 
 def conectar_bd():
 try:
 conexion = psycopg2.connect(
