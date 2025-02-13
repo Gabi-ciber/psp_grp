@@ -1,10 +1,10 @@
-import psycopg2
+import psycopg2 
 def conectar_bd():
 try:
 conexion = psycopg2.connect(
 dbname="pruebaPPS",
 user="tu_usuario",
-password="tu_contraseña",
+password="tu_contraseña gabi",
 host="localhost", # Cambia si el servidor no está en local
 port="5432" # Puerto por defecto de PostgreSQL
 )
